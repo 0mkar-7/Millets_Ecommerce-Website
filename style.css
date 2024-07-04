@@ -1,0 +1,366 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    /* position : fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 9%;
+
+
+
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.header .logo span {
+    color: greenyellow;
+
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: black;
+
+}
+
+.header .navbar a:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.backgroundimage {
+
+    /* width: 91%;
+    height: 95%; */
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    background-position: 0 50rem;
+    /* margin-left: 7rem; */
+    /* margin-right:2rem; */
+}
+.about {
+    background: url(Milletscover.jpg) no-repeat;
+    background-size: 55%;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10rem 0rem;
+    background-position-y: 24rem;
+}
+
+.inner-section {
+    width: 53%;
+    float: right;
+    background-color: rgb(249, 246, 243);
+    padding: 14rem;
+    box-shadow: 1.2rem 1.2rem .8rem gray;
+    margin-right: 4rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    color: black;
+    line-height: 3rem;
+    text-align: justify;
+    margin-bottom: 4rem;
+}
+.parent {
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+}
+
+.child {
+    width: 40rem;
+    height: 40rem;
+    background:#38E54D;
+    box-shadow: 1.2rem 1.2rem .8rem gray;
+    border-radius: 2rem;
+}
+
+.child p {
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 50px;
+    font-size: 40px;
+    margin-top: 93px;
+}
+.content {
+
+    /* width: 91%;
+    height: 95%; */
+    width: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    /* position: relative; */
+    background-position: 0 50rem;
+    background-color: #38E54D;
+    height: 30rem;
+    margin : 1rem;
+    border-radius: 20px;
+    /* margin-left: 7rem; */
+    /* margin-right:2rem; */
+}
+.content-feed{
+    text-align: center;
+    font-size: x-large;
+    padding: 3rem;
+    color: #fff;
+    
+
+}
+.content-feed span{
+
+    text-decoration: solid;
+    color: Yellow;
+}
+.link{
+    color:seashell;
+    
+    
+}
+.link :hover{
+    cursor: pointer;
+    color: yellow;
+    font-size: xx-large;
+}
+
+.card-parts {
+    max-width: 30rem;
+    display: inline-block;
+    flex: 1 1 210px;
+    text-align: center;
+    height: 57rem;
+    border: 0.2rem solid #38E54D ;
+    margin: 2rem;
+    border-radius: 2rem;
+
+}
+
+.card-parts .image {
+    height: 50%;
+    margin-bottom: 2rem;
+}
+
+.card-parts .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.card-parts .caption {
+    padding-left: 1rem;
+    text-align: left;
+    line-height: 3rem;
+    height: 25%;
+}
+
+.card-parts .caption p {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.title {
+    font-weight: bold;
+}
+
+.card-parts button {
+    border: .2rem solid black;
+    
+    padding: 1rem;
+    width: 80%;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    border-radius: 2rem;
+    margin-top: 4rem;
+
+}
+ .card-parts:hover {
+    box-shadow: 1.2rem 1.2rem .8rem gray;
+
+}
+.card-parts button:hover {
+    background-color: #38E54D;
+}
+
+.inner-section1 {
+    width: 53%;
+    float: right;
+    background-color: rgb(249, 246, 243);
+    padding: 14rem;
+    box-shadow: 1.2rem 1.2rem .8rem gray;
+    margin-right: 4rem;
+    /* margin-top:26rem; */
+}
+
+/*About style*/
+
+.container {
+    width: 80%;
+    margin: 5rem;
+}
+
+.contactBox {
+    background: #fff;
+    display: flex;
+}
+
+.conleft {
+    flex-basis: 60%;
+    padding: 4rem 6rem;
+}
+
+.conright {
+    flex-basis: 40%;
+    padding: 4rem;
+    background-color: rgb(95, 226, 43);
+    color: #fff;
+
+}
+
+.container h1 {
+    margin-bottom: 1rem;
+}
+
+.container p {
+    margin-bottom: 4rem;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+
+}
+
+.input-row .input-group input {
+    width: 100%;
+    border: none;
+    border-bottom: .1rem solid #ccc;
+    outline: none;
+    padding-bottom: .5rem;
+
+}
+
+textarea {
+    width: 100%;
+    border: .1rem solid #ccc;
+    outline: none;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+
+label {
+    display: block;
+    margin-bottom: .6rem;
+    color: rgb(95, 226, 43);;
+
+}
+
+.form-button {
+    background: rgb(95, 226, 43);;
+    width: 10rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 3.5rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+
+}
+
+.conleft h3 {
+    color: rgb(95, 226, 43);;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.conright h3 {
+    font-weight: 600;
+    margin-bottom: 3rem;
+
+}
+
+tr td:first-child {
+    padding-right: 2rem;
+}
+
+tr td {
+    padding-top: 2rem;
+}
+/* profile css */
+.banner {
+    background-color: #fff;
+    height: 5rem;
+    color: rgb(95, 226, 43);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.details {
+    border: #111;
+}
+
+.userdetails {
+    background-color: #fff;
+    color: rgb(95, 226, 43);
+    height: 5rem;
+    margin-top: 1rem;
+    border: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.account {
+
+    padding-left: 70rem;
+}
+
+.details {
+    font-size: medium;
+}
+
+.details td {
+    padding: 1rem;
+}
